@@ -139,7 +139,7 @@ document.question.response.value="Incorrect"
 ?>
 <TR><TD ALIGN=Center>
 The Quiz has finished
-<BR>Percentage of correct responses: <?php print percentage ; ?> % <p><A HREF="<?php printpercentage;?>address; ?>">Sign Up</a>
+<BR>Percentage of correct responses: <?php print percentage ; ?> % <p><A HREF="<?php printpercentage;?>address; ?>">Enter Name</a>
 
 <?php } ?>
 
