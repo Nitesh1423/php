@@ -12,7 +12,7 @@ include "config.php";
 
       <form method='post' action=''>
 
-        <h1>SignUp</h1>
+        <h1>NAME</h1>
         <?php 
         // Display Error message
         if(!empty($error_message)){
@@ -49,14 +49,7 @@ include "config.php";
           <label for="email">Email address:</label>
           <input type="email" class="form-control" name="email" id="email" required="required" maxlength="80">
         </div>
-        <div class="form-group">
-          <label for="password">Password:</label>
-          <input type="password" class="form-control" name="password" id="password" required="required" maxlength="80">
-        </div>
-        <div class="form-group">
-          <label for="pwd">Confirm Password:</label>
-          <input type="password" class="form-control" name="confirmpassword" id="confirmpassword" onkeyup='' required="required" maxlength="80">
-        </div>
+        
 
         <button type="submit" name="btnsignup" class="btn btn-default">Submit</button>
       </form>
